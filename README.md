@@ -40,7 +40,7 @@ This project addresses disaster recovery in the **automotive cybersecurity** dom
 
 # :closed_book: License
 
-Released in 2022 :closed_book: License
+Released in 2025 :closed_book: License
 
 Made with :heart: by [Lucas Breno de Souza Noronha Braga](https://github.com/lucasbbs) 🚀.
 This project is under the [MIT license](https://github.com/lucasbbs/iMonitor-Backend/master/LICENSE).
