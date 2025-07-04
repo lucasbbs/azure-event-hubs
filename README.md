@@ -1,45 +1,46 @@
-# Azure Event Hubs for Developers
-This is the repository for the LinkedIn Learning course Azure Event Hubs for Developers. The full course is available from [LinkedIn Learning][lil-course-url].
+# Enhancing Automotive Cybersecurity with Azure Event Hubs  
+_Disaster Recovery and Real-Time Telemetry for Connected Vehicles_
 
-![Azure Event Hubs for Developers][lil-thumbnail-url] 
+![Static Badge](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Static Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Business Continuity and Disaster Recovery - Final Project Report](https://github.com/user-attachments/assets/4ec6eb3f-7f5f-4272-8ee8-af65c2bf4309)
 
-As modern applications become more decentralized and developers need to create solutions for receiving and processing events generated from multiple sources, building data ingestion pipelines that are simple, trusted, and scalable has never been more important. In this course, Nertil Poci teached you how to build data processing solutions with Azure Event Hubs. Nertil goes over provisioning event hubs, sending events, and creating event processors to read the messages coming into your hub. If you’re looking to use Azure Event Hubs to ingest data and create actionable insights, check out this course.
+## Contact
+Lucas Breno de Souza Noronha Braga
 
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
-
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
-
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- Visual Studio 2022
-	- .net 6
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
+[![Static Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=12267247739)
+[![Static Badge](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:lucasbbs@live.fr)
+[![Static Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasbbs/)
+[![Static Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Lucas-in-Canada/)
 
 
+## Overview  
+This project simulates a resilient, cloud-based telemetry platform for connected vehicles using **Azure Event Hubs with Geo-Disaster Recovery**. It ensures uninterrupted streaming of security-critical data—such as anomaly flags, diagnostic codes, and threat alerts—from in-vehicle systems to cloud analytics, even during regional outages.
 
-### Instructor
+## Objectives  
+- Enable **real-time event ingestion** from automotive systems.  
+- Ensure **high availability** and **automatic failover** using paired Event Hub namespaces.  
+- Implement **checkpointing** and **telemetry monitoring** to track processing and recovery.  
+- Simulate regional outages and evaluate **RTO** and **event loss**.
 
-Nertil Poci 
-                            
-Software Developer
+## Features  
+- 🚗 **In-Vehicle Module Simulation**: Producers generate security events and send them to Azure Event Hubs.  
+- ☁️ **Geo-Disaster Recovery**: Alias-based namespace failover without consumer reconfiguration.  
+- 📦 **Checkpointing**: Azure Blob Storage integration for event consumption tracking.  
+- 📊 **Monitoring & Alerts**: Real-time dashboards with Azure Monitor and Log Analytics.  
+- 🧪 **Failover Testing**: Automated tests validate system continuity during simulated outages.
 
-                            
+## Tech Stack  
+- **Azure Services**: Event Hubs, Blob Storage, Log Analytics, Monitor, Traffic Manager  
+- **Language**: C# (.NET)  
+- **Tools**: Visual Studio 2022, Azure CLI, ARM Templates  
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/nertil-poci).
+## Use Case  
+This project addresses disaster recovery in the **automotive cybersecurity** domain. It demonstrates how cloud-native tools can meet the high-availability and compliance needs (e.g., ISO/SAE 21434) of modern, connected vehicle systems.
 
-[lil-course-url]: https://www.linkedin.com/learning/azure-event-hubs-for-developers
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2450258/2450258-1649355313972-16x9.jpg
+# :closed_book: License
+
+Released in 2022 :closed_book: License
+
+Made with :heart: by [Lucas Breno de Souza Noronha Braga](https://github.com/lucasbbs) 🚀.
+This project is under the [MIT license](https://github.com/lucasbbs/iMonitor-Backend/master/LICENSE).
